@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/svg+xml" href="/js_90_Avelinka/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The shopping list of our Bookshelf will help you not only to save a list of your chosen books, but also to easily purchase them!"
+    />
+    <title>Bookshelf Shopping list</title>
+    
+    <script type="module" crossorigin src="/js_90_Avelinka/assets/shopping-list-28c7190c.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_90_Avelinka/assets/mobile-menu-theme-69ad6907.js">
+    <link rel="stylesheet" href="/js_90_Avelinka/assets/mobile-menu-theme-bd0a742a.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="header-container container">
+    <div class="header-wraper">
+      <div class="logo-wraper">
+        <a
+          href="./index.html"
+          class="header-logo"
+          aria-label="Logotype Bookshelf"
+        >
+          <svg class="logo-icon" width="24" height="24">
+            <use href="/js_90_Avelinka/assets/sprite-a598f328.svg#icon-logo"></use>
+          </svg>
+          <svg class="header-logo-text" width="77" height="14">
+            <use
+              class="header-logo-text-icon"
+              href="/js_90_Avelinka/assets/sprite-a598f328.svg#icon-logo-text"
+            ></use>
+          </svg>
+        </a>
+      </div>
+      <nav class="header-menu navigation">
+        <ul class="header-menu-list">
+          <li class="page-item">
+            <a class="page-link js-home current-page" href="./index.html"
+              >Home</a
+            >
+          </li>
+          <li class="page-item">
+            <a class="page-link js-shop" href="./shopping-list.html"
+              >Shopping list<svg
+                class="bag-icon js-color-dark"
+                width="20"
+                height="20"
+              >
+                <use href="/js_90_Avelinka/assets/uil_cart-88c8480b.svg#tasche"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="toggle-container">
+      <div class="switcher-container">
+        <label id="switch" class="switcher">
+          <input
+            type="checkbox"
+            id="toggle-slider"
+            aria-label="Light/Dark Theme Switcher"
+          />
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <button
+        type="button"
+        class="menu-icon js-open-menu"
+        aria-label="Mobile menu"
+      >
+        <svg class="gamburger-icon" width="28" height="28">
+          <use id="js-icon" href="/js_90_Avelinka/assets/sprite-a598f328.svg#icon-gamburger"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+    <div class="mobile-menu-container js-menu-container" data-modal>
+  <div class="mobile-menu">
+    <nav>
+      <ul class="mobile-list-links">
+        <li class="mobile-home-item mobile-current-page-back" id="style-home">
+          <a
+            class="mobile-home mobile-current-page-link js-close-menu-1"
+            href="./index.html"
+            >Home</a
+          >
+        </li>
+        <li class="shopping-list-mobile" id="style-shopping">
+          <a class="mobile-shoplist js-close-menu-2" href="./shopping-list.html"
+            >Shopping list
+            <svg class="shoplist-icon">
+              <use href="/js_90_Avelinka/assets/uil_cart-88c8480b.svg#tasche"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div id="background-image-mobile"></div>
+</div>
+
+    <main>
+      <section class="shopping-wrap">
+        <div class="shopping-div container">
+          <div class="shopping-div-support">
+            <div id="sliderOne" class="splide" aria-label="Splide Basic HTML Example">
+  <div class="main-fonds">
+    <div class="support-block">
+      <h2 class="support-text">Support Ukraine</h2>
+      <img
+        src="/js_90_Avelinka/assets/group_2-d0555d30.svg"
+        alt="trident"
+        width="20"
+        height="32"
+        class="support-img"
+      />
+    </div>
+    <div class="splide__track">
+      <ul class="splide__list"></ul>
+    </div>
+    <div class="splide__arrows">
+      <button class="splide__arrow splide__arrow--prev">
+        Prev
+      </button>
+      <button class="splide__arrow splide__arrow--next">
+        <svg id="rotate-svg" class="icon icon-slider">
+          <symbol id="icon-slider" viewBox="0 0 32 32">
+            <path fill="#fff" style="fill: var(--color1, #fff)" d="M16 32c-8.837 0-16-7.163-16-16s7.163-16 16-16c8.837 0 16 7.163 16 16s-7.163 16-16 16z"></path>
+            <path fill="#4f2ee8" style="fill: var(--color2, #4f2ee8)" d="M15.452 17.081c0.072 0.072 0.157 0.13 0.251 0.169s0.195 0.059 0.297 0.059 0.203-0.020 0.297-0.059c0.094-0.039 0.179-0.097 0.251-0.169l3.535-3.543c0.072-0.072 0.157-0.13 0.251-0.169s0.195-0.059 0.297-0.059c0.102 0 0.203 0.020 0.297 0.059s0.179 0.097 0.251 0.169c0.144 0.145 0.224 0.34 0.224 0.544s-0.081 0.4-0.224 0.544l-3.543 3.543c-0.434 0.434-1.023 0.677-1.636 0.677s-1.202-0.244-1.637-0.677l-3.543-3.543c-0.143-0.144-0.223-0.338-0.224-0.54-0.001-0.102 0.019-0.202 0.057-0.296s0.095-0.18 0.167-0.252c0.072-0.072 0.157-0.13 0.251-0.169s0.195-0.059 0.297-0.059c0.102 0 0.203 0.020 0.297 0.059s0.179 0.097 0.251 0.169l3.535 3.543z"></path>
+            </symbol><use xlink:href="#icon-slider"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+          </div>
+          <div class="container-shops-list">
+            <h1 class="shopping-title">
+              Shopping<span class="span-list"> List</span>
+            </h1>
+            <div class="hidden-shop-list cart">
+              <p class="empty-cart-notification">
+                This page is empty, add some books and proceed to order.
+              </p>
+              <picture class="empty-cart-img">
+                <source
+                  srcset="/js_90_Avelinka/assets/mob-shoping-list-a43bd610.png 1x, /js_90_Avelinka/assets/mob-shoping-list@2x-f4f76ad2.png 2x"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="/js_90_Avelinka/assets/desk-tab-shoping-list-4e44a81a.png 1x, /js_90_Avelinka/assets/desk-tab-shoping-list@2x-33dfbeb3.png 2x"
+                  media="(min-width: 768px)"
+                />
+                <img
+                  src="/js_90_Avelinka/assets/desk-tab-shoping-list-4e44a81a.png"
+                  alt="Books"
+                  width="322"
+                />
+              </picture>
+            </div>
+            <ul class="js-list shopping-list-section"></ul>
+          </div>
+        </div>
+      </section>
+      <button type="button" class="btn-up is-hidden">
+  <span class="btn-up-wrap">
+    <svg width="24" height="24">
+      <use href="/js_90_Avelinka/assets/sprite-a598f328.svg#icon-btn-up"></use>
+    </svg>
+  </span>
+</button>
+
+    </main>
+
+    
+    
+  </body>
+</html>
