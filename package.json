@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/brain-waves-js-proj/",
+    "build": "vite build --base=/js_90_Avelinka/",
     "preview": "vite preview"
   },
   "devDependencies": {
